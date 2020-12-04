@@ -1,0 +1,18 @@
+{
+    "name": "kasio/highcharts-adianti",
+    "description": "Criar gr\u0000ficos utilizando a biblioteca Highcharts com Adianti",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kasio Eduardo",
+            "email": "kasioeduardo13@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+      "psr-4": {
+        "HighchartsAdianti\\":"src/"
+      }
+    }
+}
