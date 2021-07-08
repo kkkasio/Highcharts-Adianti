@@ -1,10 +1,10 @@
 <?php
 
-namespace HighchartsAdianti;
+namespace Adianti\Plugins\Highcharts;
 
 use Adianti\Widget\Base\TElement;
 use Adianti\Widget\Base\TScript;
-use HighchartsAdianti\HighchartOption;
+
 
 /**
  * 
@@ -99,8 +99,6 @@ class KGraficos extends TElement implements \ArrayAccess
   }
 
 
-
-
   /**
    * Prints javascript script tags for all scripts that need to be included on page
    *
@@ -108,7 +106,7 @@ class KGraficos extends TElement implements \ArrayAccess
    */
   private function printScripts()
   {
-    TScript::importFromFile('lib/highcharts/highcharts.js');
+    TScript::importFromFile('highcharts.js');
   }
 
   /**
@@ -208,7 +206,7 @@ class KGraficos extends TElement implements \ArrayAccess
    */
   public function show($varName = null, $callback = null, $withScriptTag = false)
   {
-    TScript::importFromFile('https://code.highcharts.com/highcharts.js');
+    TScript::importFromFile('highcharts.js');
 
     $result = '';
     $result .= 'new Highcharts.';

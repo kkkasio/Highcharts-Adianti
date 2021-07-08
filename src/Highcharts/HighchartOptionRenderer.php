@@ -1,8 +1,9 @@
 <?php
 
-namespace HighchartsAdianti;
+namespace Adianti\Plugins\Highcharts;
 
-use HighchartsAdianti\HighchartJsExpr;
+use Adianti\Plugins\Highcharts\HighchartJsExpr;
+
 
 class HighchartOptionRenderer
 {

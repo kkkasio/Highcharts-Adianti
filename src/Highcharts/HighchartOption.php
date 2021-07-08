@@ -1,6 +1,6 @@
 <?php
 
-namespace HighchartsAdianti;
+namespace Adianti\Plugins\Highcharts;
 
 class HighchartOption implements \ArrayAccess
 {
